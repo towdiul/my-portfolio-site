@@ -1,0 +1,69 @@
+#header {
+	background: url(../img/bg/header-bg.jpg) no-repeat center top fixed;
+	background-size: cover;
+}
+
+#site-header {
+	position: fixed;
+	width: 100%;
+	/* background-color: #35405f; */
+	background-color: rgba(144, 146, 153, 0.94);
+	/* background-color: rgba(32, 178, 170, 0.86); */
+	padding: 0 30px;
+	z-index: 100;
+}
+
+#site-header h1 {
+	margin: 0;
+	font-family: "Oswald", sans-serif;
+	margin-top: 11px;
+	font-size: 26px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+#site-header h1 a:focus {
+	text-decoration: none;
+}
+
+#site-header h1 a {
+	color: #fff;
+}
+
+#site-header h1 a:hover {
+	text-decoration: none;
+}
+
+/*////////////////////////////////////////////////////////////////////////
+//  03 - Navigation
+///////////////////////////////////////////////////////////////////////*/
+
+.navbar {
+	border-radius: 0;
+	margin: 0;
+	border: none;
+}
+
+.navbar-toggle {
+	padding: 0;
+	border: 0;
+	color: #fff;
+	margin-top: 13px;
+}
+
+.site-nav ul li a {
+	color: #fff;
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+	position: relative;
+	transition: 0.5s background linear;
+}
+
+/* .site-nav ul li a:hover {
+	background: rgba(255, 255, 255, 0.11);
+} */
+
+.site-nav ul li a:hover,
+.site-nav ul li a:focus {
+	background-color: rgba(0, 255, 255, 0.58);
+}
