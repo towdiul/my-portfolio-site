@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+	--primary-white: #fff;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+/****** Navbar******/
+
+.logo {
+	width: 16.25rem;
+}
+
+nav a.nav-link {
+	letter-spacing: 0.0375rem;
+	cursor: pointer;
+}
+
+nav ul li {
+	text-transform: uppercase;
+}
+.navbar-nav > li > a {
+	margin-right: 0.75rem;
+	margin-left: 0.75rem;
+	color: var(--primary-white) !important;
+}
